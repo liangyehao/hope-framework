@@ -1,5 +1,7 @@
 package com.liang;
 
+import lombok.extern.slf4j.Slf4j;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,10 +17,12 @@ import java.io.IOException;
  */
 
 @WebServlet("/hello")
+@Slf4j
 public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        log.info("测试日志----------");
         String name = "梁业浩的简易框架";
         req.setAttribute("name",name);
         req.getRequestDispatcher("/WEB-INF/jsp/hello.jsp").forward(req,resp);
