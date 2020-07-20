@@ -1,9 +1,9 @@
 package demo.pattern.factory.simple;
 
-import demo.pattern.factory.entity.DellMouse;
-import demo.pattern.factory.entity.HpMouse;
-import demo.pattern.factory.entity.LenovoMouse;
-import demo.pattern.factory.entity.Mouse;
+import demo.pattern.factory.entity.mouse.DellMouse;
+import demo.pattern.factory.entity.mouse.HpMouse;
+import demo.pattern.factory.entity.mouse.LenovoMouse;
+import demo.pattern.factory.entity.mouse.Mouse;
 
 public class SimpleMouseFactory {
     public static Mouse createMouse(String type){

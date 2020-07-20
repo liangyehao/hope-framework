@@ -1,7 +1,7 @@
 package demo.pattern.factory.method;
 
-import demo.pattern.factory.entity.HpMouse;
-import demo.pattern.factory.entity.Mouse;
+import demo.pattern.factory.entity.mouse.HpMouse;
+import demo.pattern.factory.entity.mouse.Mouse;
 
 public class HpMouseFactory implements MouseFactory {
     @Override

@@ -1,6 +1,6 @@
 package demo.pattern.factory.method;
 
-import demo.pattern.factory.entity.Mouse;
+import demo.pattern.factory.entity.mouse.Mouse;
 
 /**
  * 工厂方法模式：抽象出创建产品的方法，创建产品的实现延迟到子类进行

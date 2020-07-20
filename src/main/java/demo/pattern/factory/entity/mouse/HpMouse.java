@@ -1,4 +1,4 @@
-package demo.pattern.factory.entity;
+package demo.pattern.factory.entity.mouse;
 
 public class HpMouse implements Mouse {
     @Override
